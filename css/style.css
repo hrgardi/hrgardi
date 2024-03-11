@@ -41,34 +41,35 @@ body {
   background-repeat: no-repeat;
   /* background-image: linear-gradient(rgba(68, 68, 65, 0.763),rgba(0, 30, 48, 0.834)), url('../img/newfinal.jpeg'); */
   /* clip-path: polygon(0 0, 100% 0, 100% 620px, 0 100%);  */
-   /* for creating fading bg-images   */
+  /* for creating fading bg-images   */
   animation: slideBg 12s linear infinite;
   animation-timing-function: ease-in-out;
   border: 5px solid black;
   border-radius: 10%;
-  box-shadow: 0 0 80px rgba(236, 193, 3, 0.922); /* Adjust the values as needed */
-} 
+  box-shadow: 0 0 80px rgba(236, 193, 3, 0.922);
+  /* Adjust the values as needed */
+}
 
 
 @keyframes slideBg {
   0% {
-    background-image: linear-gradient(rgba(68, 68, 65, 0.763),rgba(79, 129, 160, 0.582)), url('../img/newfinal.jpeg');
+    background-image: linear-gradient(rgba(68, 68, 65, 0.763), rgba(79, 129, 160, 0.582)), url('../img/newfinal.jpeg');
   }
 
   25% {
-    background-image: linear-gradient(rgba(68, 68, 65, 0.763),rgba(79, 129, 160, 0.582)), url('../img/oldbuild.jpeg');
+    background-image: linear-gradient(rgba(68, 68, 65, 0.763), rgba(79, 129, 160, 0.582)), url('../img/oldbuild.jpeg');
   }
 
   50% {
-    background-image: linear-gradient(rgbrgba(68, 68, 65, 0.763),rgba(79, 129, 160, 0.582)), url('../img/newbuild.jpeg');
+    background-image: linear-gradient(rgbrgba(68, 68, 65, 0.763), rgba(79, 129, 160, 0.582)), url('../img/newbuild.jpeg');
   }
 
   75% {
-    background-image: linear-gradient(rgba(68, 68, 65, 0.763),rgba(79, 129, 160, 0.582)), url('../img/midandnew.jpeg');
+    background-image: linear-gradient(rgba(68, 68, 65, 0.763), rgba(79, 129, 160, 0.582)), url('../img/midandnew.jpeg');
   }
 
   100% {
-    background-image: linear-gradient(rgba(68, 68, 65, 0.763),rgba(79, 129, 160, 0.582)), url('../img/middelandnew.jpeg');
+    background-image: linear-gradient(rgba(68, 68, 65, 0.763), rgba(79, 129, 160, 0.582)), url('../img/middelandnew.jpeg');
   }
 }
 
@@ -229,8 +230,10 @@ body {
 /*---------------------------------------------this is for the staff section -------------------------------------------------------------*/
 
 .staff-info {
-  width: 100%; /* Change width to 100% */
-  margin: 1.25rem auto; /* Adjust margin if necessary */
+  width: 100%;
+  /* Change width to 100% */
+  margin: 1.25rem auto;
+  /* Adjust margin if necessary */
 }
 
 .staff-info h2 {
@@ -280,7 +283,7 @@ body {
 .members .img-container {
   flex: 0 0 auto;
   margin-right: 100px;
-  margin-left: 90px;
+  margin-left: 85px;
 }
 
 .members .principal-info {
@@ -309,7 +312,8 @@ body {
     width: 200px;
     height: 200px;
     /* padding-left: 10px; */
-    margin-bottom: 1rem; /* Add margin bottom for spacing between containers */
+    margin-bottom: 1rem;
+    /* Add margin bottom for spacing between containers */
   }
 
   .members .img-container {
@@ -328,7 +332,7 @@ body {
     font-size: 1.1rem;
   }
 
-  .span-text {
+  .teacher-txt {
     font-size: 1.1rem;
 
   }
@@ -352,8 +356,22 @@ body {
     width: 100%;
   }
 
-  .span-text {
+  .principal-info {
+    text-align: center;
+  }
+
+  .principal-info p {
+    text-align: left;
+    padding-top: 3px;
+    padding-right: 15px;
+  }
+
+  .teacher-txt {
     font-size: 1rem;
+    margin-top: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-right:15px;
   }
 }
 
@@ -519,17 +537,20 @@ body {
   background-color: #e0e0e0;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
+
 .custom-card {
   border-radius: 10px;
-  border:10px double green;
+  border: 10px double green;
   padding: 15px;
   margin-bottom: 20px;
-  transition: box-shadow,border 0.5s ease; /* Smooth transition for box-shadow */
+  transition: box-shadow, border 0.5s ease;
+  /* Smooth transition for box-shadow */
 }
 
 .custom-card:hover {
-  box-shadow: 10px 10px 10px green; /* Glow effect on hover */
-  border:6px solid red
+  box-shadow: 10px 10px 10px green;
+  /* Glow effect on hover */
+  border: 6px solid red
 }
 
 .education-level h3 {
@@ -615,7 +636,8 @@ figcaption {
   height: 250px;
   /* Adjust the height of the figure */
   border: 5px solid black;
-  box-shadow: 0 0 20px rgba(3, 236, 92, 0.922); /* Adjust the values as needed */
+  box-shadow: 0 0 20px rgba(3, 236, 92, 0.922);
+  /* Adjust the values as needed */
 }
 
 .grid__figure img {
