@@ -10,3 +10,5 @@ Simple static single-page school website, fully responsive, with toggle menu for
 #HTML
 #CSS
 #JAVASCRIPT
+
+#pull req1
